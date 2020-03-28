@@ -1,0 +1,24 @@
+{
+  "name": "@thejellyfish/soundex",
+  "version": "1.0.0",
+  "description": "Calculate the soundex key of a string",
+  "keywords": ["soundex"],
+  "license": "ISC",
+  "author": "thejellyfish <the@jellyfish-commuting.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thejellyfish/soundex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thejellyfish/soundex/issues"
+  },
+  "homepage": "https://github.com/thejellyfish/soundex#readme"
+}
