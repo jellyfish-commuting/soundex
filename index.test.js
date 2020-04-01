@@ -29,6 +29,9 @@ describe('Soundex', () => {
   // Common error case, many soundex return A226 instead of A261
   it('expect A261 for Ashcraft', () => expect(soundex('Ashcraft')).toBe('A261'));
 
-  // Different case
+  // Length param
+  it('expect A2613 for Ashcraft with length = 5', () => expect(soundex('Ashcraft', 5)).toBe('A2613'));
+
+  // Different test case
   it('expect different for Kabyle & Arab', () => expect(soundex('Kabyle')).not.toBe(soundex('Arab')));
 });
