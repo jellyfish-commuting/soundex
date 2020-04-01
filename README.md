@@ -1,6 +1,6 @@
 # soundex
 Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
-Optimized and fast function to get soundex key   
+Compliant, optimized and small package to get the soundex key   
    
 For mapping used see https://en.wikipedia.org/wiki/Soundex#American_Soundex 
 
