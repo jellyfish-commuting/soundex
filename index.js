@@ -22,11 +22,12 @@ module.exports = function (str) {
 
   // Map all chars
   for(let i = 1; i < buffer.length; i += 1) {
-    // Init var
+    // Retrieve current values
     const letter = buffer.charAt(i);
     const code = codes[letter];
 
-    // Ignore non letter character and apply rule: "two letters with the same number separated by 'h' or 'w' are coded as a single number"
+    // Ignore non letter character and apply the rule:
+    // "two letters with the same number separated by 'h' or 'w' are coded as a single number"
     if (code === undefined || letter === 'H' || letter === 'W') {
       continue;
     }
@@ -45,6 +46,6 @@ module.exports = function (str) {
     previous = code;
   }
 
-  // Fill with 0 if less than four chars
+  // Fill with 0
   return result.padEnd(4, '0');
 };
