@@ -13,8 +13,8 @@ const codes = {
 // Soundex
 //-------
 module.exports = function (str) {
-  // Uppercase
-  const buffer = String(str).toUpperCase();
+  // Remove spaces and capitalize
+  const buffer = String(str).trim().toUpperCase();
 
   // Init result
   let result = buffer.charAt(0);
