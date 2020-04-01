@@ -43,4 +43,4 @@ soundex(str, length);
 
 ### Return value
 
-Soundex key (4 chars)
+Soundex key of `length` chars
