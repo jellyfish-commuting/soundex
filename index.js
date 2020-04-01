@@ -12,7 +12,7 @@ const codes = {
 //-------
 // Soundex
 //-------
-module.exports = function (str) {
+module.exports = function (str, length = 4) {
   // Remove spaces and capitalize
   const buffer = String(str).trim().toUpperCase();
 
@@ -38,7 +38,7 @@ module.exports = function (str) {
     }
 
     // Soundex key is fulfilled ?
-    if (result.length === 4) {
+    if (result.length === length) {
       return result;
     }
 
@@ -47,5 +47,5 @@ module.exports = function (str) {
   }
 
   // Fill with 0
-  return result.padEnd(4, '0');
+  return result.padEnd(length, '0');
 };
