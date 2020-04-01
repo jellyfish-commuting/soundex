@@ -29,6 +29,18 @@ if (!soundex('Robert').localeCompare(soundex('Rupert'))) {
 // Output : Equal soundex
 ```
 
+### Params
+
+```javascript
+soundex(str, length);
+```
+
+| Prop     | Type     |  Default       | Note                            |
+|----------|----------|----------------|---------------------------------|
+| `str`    | `string` | Required field | String to calculate soundex key |
+| `length` | `int`    | `4`            | Length of the soundex key       |
+
+
 ### Return value
 
 Soundex key (4 chars)
