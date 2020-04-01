@@ -2,7 +2,7 @@
 Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
 Compliant, optimized and small package to get the soundex key   
    
-For mapping used see https://en.wikipedia.org/wiki/Soundex#American_Soundex 
+For mapping and formula used, see https://en.wikipedia.org/wiki/Soundex#American_Soundex 
 
 ### Install
 ```bash
