@@ -26,20 +26,19 @@ module.exports = function (str, length = 4) {
     const letter = buffer.charAt(i);
     const code = codes[letter];
 
-    // Ignore non letter character and apply the rule:
-    // "two letters with the same number separated by 'h' or 'w' are coded as a single number"
-    if (code === undefined || letter === 'H' || letter === 'W') {
+    // Ignore letter
+    if (code === undefined) {
       continue;
     }
 
     // Append code if different than previous
     if(code && code !== previous) {
       result += code;
-    }
 
-    // Soundex key is fulfilled ?
-    if (result.length === length) {
-      return result;
+      // Soundex key is fulfilled ?
+      if (result.length === length) {
+        return result;
+      }
     }
 
     // Save previous for next loop
@@ -47,5 +46,5 @@ module.exports = function (str, length = 4) {
   }
 
   // Fill with 0
-  return result.padEnd(length, '0');
+  return result.padEnd(4, '0');
 };
