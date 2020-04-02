@@ -35,10 +35,10 @@ if (!soundex('Robert').localeCompare(soundex('Rupert'))) {
 soundex(str, length);
 ```
 
-| Prop     | Type     |  Default         | Note                            |
-|----------|----------|------------------|---------------------------------|
-| `str`    | `string` | _Required field_ | String to calculate soundex key |
-| `length` | `int`    | `4`              | Length of the soundex key       |
+| Prop     | Type     |  Default         | Note                      |
+|----------|----------|------------------|---------------------------|
+| `str`    | `string` | _Required field_ | Input value               |
+| `length` | `int`    | `4`              | Length of the soundex key |
 
 
 ### Return value
