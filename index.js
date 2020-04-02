@@ -1,5 +1,5 @@
 // Letter mapping
-const codes = {
+const codes = new Map(Object.entries({
   B: 1, F: 1, P: 1, V: 1,
   C: 2, G: 2, J: 2, K: 2, Q: 2, S: 2, X: 2, Z: 2,
   D: 3, T: 3,
@@ -7,7 +7,7 @@ const codes = {
   M: 5, N: 5,
   R: 6,
   A: 0, E: 0, I: 0, O: 0, U: 0,
-};
+}));
 
 //-------
 // Soundex
@@ -18,13 +18,13 @@ module.exports = function (str, length = 4) {
 
   // Init result
   let result = buffer.charAt(0);
-  let previous = codes[result];
+  let previous = codes.get(result);
 
   // Map all chars
   for(let i = 1; i < buffer.length; i += 1) {
     // Retrieve current values
     const letter = buffer.charAt(i);
-    const code = codes[letter];
+    const code = codes.get(letter);
 
     // Ignore letter
     if (code === undefined) {
