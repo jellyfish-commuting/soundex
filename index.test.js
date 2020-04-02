@@ -32,6 +32,9 @@ describe('Soundex', () => {
   // Length param
   it('expect A2613 for Ashcraft with length = 5', () => expect(soundex('Ashcraft', 5)).toBe('A2613'));
 
+  // Overlength param
+  it('expect 4 chars for Love with over length', () => expect(soundex('Love', 10)).toBe('L100'));
+
   // Different test case
   it('expect different for Kabyle & Arab', () => expect(soundex('Kabyle')).not.toBe(soundex('Arab')));
 });
