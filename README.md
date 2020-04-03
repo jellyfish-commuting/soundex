@@ -16,7 +16,7 @@ npm install @jellyfish/soundex
 ```javascript
 import soundex from '@jellyfish/soundex';
 
-// Test 'Ashcraft' (common error on soundex implementation)
+// Test 'Ashcraft' (it's a common error in soundex implementation)
 console.log(soundex('Ashcraft')); // Output A261 (... not A226)
 
 // Test equal phonetics
