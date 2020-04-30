@@ -32,7 +32,7 @@ if (!soundex('Robert').localeCompare(soundex('Rupert'))) {
 ### Params
 
 ```javascript
-soundex(str, length);
+soundex(str, length = 4);
 ```
 
 | Prop     | Type     |  Default         | Note                      |
