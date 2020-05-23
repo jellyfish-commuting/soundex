@@ -6,15 +6,15 @@ For mapping and formula, see https://en.wikipedia.org/wiki/Soundex#American_Soun
 
 ### Install
 ```bash
-yarn add @jellyfish/soundex
+yarn add @thejellyfish/soundex
 ```
 or
 ```bash
-npm install @jellyfish/soundex
+npm install @thejellyfish/soundex
 ```
 ### Usage
 ```javascript
-import soundex from '@jellyfish/soundex';
+import soundex from '@thejellyfish/soundex';
 
 // Test 'Ashcraft' (it's a common error in soundex implementation)
 console.log(soundex('Ashcraft')); // Output A261 (... not A226)
