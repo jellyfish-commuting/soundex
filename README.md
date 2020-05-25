@@ -1,3 +1,10 @@
+
+![Version](https://img.shields.io/npm/v/@thejellyfish/soundex)
+![Licence](https://img.shields.io/npm/l/@thejellyfish/soundex)
+![Build](https://img.shields.io/travis/thejellyfish/soundex)
+![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/soundex)
+![Downloads](https://img.shields.io/npm/dt/@thejellyfish/soundex)
+
 # soundex
 Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
 Compliant, optimized and small package to get the soundex key   
