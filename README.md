@@ -1,9 +1,9 @@
 
-![Version](https://img.shields.io/npm/v/@thejellyfish/soundex)
-![Licence](https://img.shields.io/npm/l/@thejellyfish/soundex)
-![Build](https://img.shields.io/travis/thejellyfish/soundex)
-![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/soundex)
-![Downloads](https://img.shields.io/npm/dt/@thejellyfish/soundex)
+[![Version](https://img.shields.io/npm/v/@thejellyfish/soundex)](https://www.npmjs.com/package/@thejellyfish/soundex)
+[![Licence](https://img.shields.io/npm/l/@thejellyfish/soundex)](https://en.wikipedia.org/wiki/ISC_license)
+[![Build](https://img.shields.io/travis/thejellyfish/soundex)](https://travis-ci.org/github/thejellyfish/soundex)
+[![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/soundex)](https://codecov.io/gh/thejellyfish/soundex)
+[![Downloads](https://img.shields.io/npm/dt/@thejellyfish/soundex)](https://www.npmjs.com/package/@thejellyfish/soundex)
 
 # soundex
 Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
