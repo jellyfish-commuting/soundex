@@ -26,7 +26,7 @@ import soundex from '@thejellyfish/soundex';
 console.log(soundex('Ashcraft')); // Output A261 (... not A226)
 
 // Test equal phonetics
-if (!soundex('Robert').localeCompare(soundex('Rupert'))) {
+if (soundex('Robert') === soundex('Rupert')) {
   console.log('Equal soundex');
 } else {
   console.log('Different soundex');
