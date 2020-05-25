@@ -1,4 +1,3 @@
-
 [![Version](https://img.shields.io/npm/v/@thejellyfish/soundex)](https://www.npmjs.com/package/@thejellyfish/soundex)
 [![Licence](https://img.shields.io/npm/l/@thejellyfish/soundex)](https://en.wikipedia.org/wiki/ISC_license)
 [![Build](https://img.shields.io/travis/thejellyfish/soundex)](https://travis-ci.org/github/thejellyfish/soundex)
