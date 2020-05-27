@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/npm/dt/@thejellyfish/soundex)](https://www.npmjs.com/package/@thejellyfish/soundex)
 
 # soundex
-Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
+Calculate soundex key of a string by implementing the rules described on the wikipedia page     
 Compliant, optimized and small package to get soundex key   
    
 For mapping and formula, see https://en.wikipedia.org/wiki/Soundex#American_Soundex 
