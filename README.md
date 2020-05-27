@@ -6,7 +6,7 @@
 
 # soundex
 Calculate the soundex key of a string by implementing the rules described on the wikipedia page     
-Compliant, optimized and small package to get the soundex key   
+Compliant, optimized and small package to get soundex key   
    
 For mapping and formula, see https://en.wikipedia.org/wiki/Soundex#American_Soundex 
 
@@ -41,10 +41,10 @@ if (soundex('Robert') === soundex('Rupert')) {
 soundex(str, length = 4);
 ```
 
-| Prop     | Type     |  Default         | Note                      |
-|----------|----------|------------------|---------------------------|
-| `str`    | `string` | _Required field_ | Input value               |
-| `length` | `int`    | `4`              | Length of the soundex key |
+| Prop     | Type     |  Default         | Note                  |
+|----------|----------|------------------|-----------------------|
+| `str`    | `string` | _Required field_ | Input value           |
+| `length` | `int`    | `4`              | Length of soundex key |
 
 
 ### Return value
