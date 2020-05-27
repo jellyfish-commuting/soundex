@@ -2,7 +2,7 @@
   "name": "@thejellyfish/soundex",
   "description": "Calculate the soundex key of a string",
   "keywords": ["soundex", "phonetic"],
-  "license": "ISC",
+  "license": "MIT",
   "author": "thejellyfish <the@jellyfish-commuting.com>",
   "main": "index.js",
   "scripts": {
