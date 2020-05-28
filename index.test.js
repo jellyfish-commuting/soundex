@@ -10,10 +10,16 @@ const samples = [
   ["Heilbronn", "Hilbert"],
   ["Johnny", "Jonny"],
   ["Kant", "Knuth"],
+  ["Kuangtung", "Kwangtung"],
   ["Ladd", "Lloyd"],
   ["Lissajous", "Lukasiewicz"],
   ["O'Conner", "O'Connor"],
   ["Robert", "Rupert"],
+  ["Schafer", "Shaeffer"],
+  ["Sherman", "Sharman"],
+  ["Shireman", "Schurman"],
+  ["Shurman", "Shearman"],
+  ["Smith", "Smyth"],
   ["Soundex", "sownteks"],
 ];
 
