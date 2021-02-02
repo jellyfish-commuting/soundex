@@ -1,5 +1,5 @@
 {
-  "name": "@jellyfish-commuting/soundex",
+  "name": "@jollie/soundex",
   "description": "Calculate the soundex key of a string",
   "keywords": ["soundex", "phonetic"],
   "license": "MIT",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jellyfish-commuting/soundex.git"
+    "url": "git://github.com/thejellyfish/soundex.git"
   },
   "bugs": {
-    "url": "https://github.com/jellyfish-commuting/soundex/issues"
+    "url": "https://github.com/thejellyfish/soundex/issues"
   },
-  "homepage": "https://github.com/jellyfish-commuting/soundex#readme",
+  "homepage": "https://github.com/thejellyfish/soundex#readme",
   "publishConfig": {
     "access": "public"
   },
