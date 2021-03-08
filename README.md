@@ -1,7 +1,7 @@
 [![Version](https://img.shields.io/npm/v/@jollie/soundex)](https://www.npmjs.com/package/@jollie/soundex)
 [![Licence](https://img.shields.io/npm/l/@jollie/soundex)](https://en.wikipedia.org/wiki/MIT_license)
-[![Build](https://img.shields.io/travis/com/thejellyfih/soundex)](https://travis-ci.com/github/thejellyfih/soundex)
-[![Coverage](https://img.shields.io/codecov/c/github/thejellyfih/soundex)](https://codecov.io/gh/thejellyfih/soundex)
+[![Build](https://img.shields.io/travis/thejellyfish/soundex)](https://travis-ci.org/github/thejellyfish/soundex)
+[![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/soundex)](https://codecov.io/gh/thejellyfish/soundex)
 [![Downloads](https://img.shields.io/npm/dt/@jollie/soundex)](https://www.npmjs.com/package/@jollie/soundex)
 
 # soundex
