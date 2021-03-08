@@ -1,8 +1,8 @@
-[![Version](https://img.shields.io/npm/v/@jellyfish-commuting/soundex)](https://www.npmjs.com/package/@jellyfish-commuting/soundex)
-[![Licence](https://img.shields.io/npm/l/@jellyfish-commuting/soundex)](https://en.wikipedia.org/wiki/MIT_license)
-[![Build](https://img.shields.io/travis/jellyfish-commuting/soundex)](https://travis-ci.org/github/jellyfish-commuting/soundex)
-[![Coverage](https://img.shields.io/codecov/c/github/jellyfish-commuting/soundex)](https://codecov.io/gh/jellyfish-commuting/soundex)
-[![Downloads](https://img.shields.io/npm/dt/@jellyfish-commuting/soundex)](https://www.npmjs.com/package/@jellyfish-commuting/soundex)
+[![Version](https://img.shields.io/npm/v/@jollie/soundex)](https://www.npmjs.com/package/@jollie/soundex)
+[![Licence](https://img.shields.io/npm/l/@jollie/soundex)](https://en.wikipedia.org/wiki/MIT_license)
+[![Build](https://img.shields.io/travis/thejellyfih/soundex)](https://travis-ci.org/github/thejellyfih/soundex)
+[![Coverage](https://img.shields.io/codecov/c/github/thejellyfih/soundex)](https://codecov.io/gh/thejellyfih/soundex)
+[![Downloads](https://img.shields.io/npm/dt/@jollie/soundex)](https://www.npmjs.com/package/@jollie/soundex)
 
 # soundex
 Calculate soundex key of a string by implementing the rules described on the wikipedia page
