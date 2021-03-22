@@ -12,15 +12,15 @@ For mapping and formula, see https://en.wikipedia.org/wiki/Soundex#American_Soun
 
 ### Install
 ```bash
-yarn add @jellyfish-commuting/soundex
+yarn add @jollie/soundex
 ```
 or
 ```bash
-npm install @jellyfish-commuting/soundex
+npm install @jollie/soundex
 ```
 ### Usage
 ```javascript
-import soundex from '@jellyfish-commuting/soundex';
+import soundex from '@jollie/soundex';
 
 // Test 'Ashcraft' (it's a common error in soundex implementation)
 console.log(soundex('Ashcraft')); // Output A261 (... not A226)
